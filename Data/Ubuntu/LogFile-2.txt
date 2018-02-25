@@ -1,0 +1,193 @@
+ 2018-02-21 20:18:02 (SVR) ../bin/OSPtoTXT V1.2 START
+ 20:18:02 (INF) Options:
+	(-h)HELP=TRUE
+	(-l)LOGLEVEL=INFO
+ 20:18:02 (INF) Operators:
+	DATA.OSP
+ 2018-02-21 20:18:02 (SVR) logging END
+ 2018-02-21 20:19:19 (SVR) ../bin/OSPtoTXT V1.2 START
+ 20:19:19 (INF) Options:
+	(-h)HELP=FALSE
+	(-l)LOGLEVEL=INFO
+ 20:19:19 (INF) Operators:
+	20180221_200536.OSP
+ 20:19:20 (INF) End of data extraction. Messages read: 787
+ 2018-02-21 20:19:20 (SVR) logging END
+ 2018-02-21 20:19:51 (SVR) ../bin/OSPtoTXT V1.2 START
+ 20:19:51 (INF) Options:
+	(-h)HELP=FALSE
+	(-l)LOGLEVEL=INFO
+ 20:19:51 (INF) Operators:
+	20180221_200536.OSP
+ 20:19:51 (INF) End of data extraction. Messages read: 787
+ 2018-02-21 20:19:51 (SVR) logging END
+ 2018-02-21 20:22:43 (SVR) ../bin/OSPtoRTK V1.2 START
+ 20:22:43 (INF) Start execution with Options:
+	(-h)HELP=FALSE
+	(-l)LOGLEVEL=INFO
+	(-m)MINSV=4
+ 20:22:43 (INF) Operators:
+	20180221_200536.OSP
+ 20:22:43 (INF) RTK header data acquisition:
+ 20:22:43 (INF) Header data adquired:1ts epoch time;Mask data
+ 20:22:43 (INF) End of data extraction. Epochs read: 60
+ 2018-02-21 20:22:43 (SVR) logging END
+ 2018-02-21 20:26:03 (SVR) ../bin/OSPtoRINEX V2.1 Feb 19 2018 START
+ 20:26:03 (INF) Options:
+	(-a)APPEND=FALSE
+	(-b)APBIAS=TRUE
+	(-c)MID8R=FALSE
+	(-d)MID8G=FALSE
+	(-h)HELP=TRUE
+	(-i)MINSV=4
+	(-j)ANTN=Antenna#
+	(-k)ANTT=AntennaType
+	(-l)LOGLEVEL=INFO
+	(-m)MRKNAM=MRKNAM
+	(-n)NAVI=FALSE
+	(-o)OBSERVER=OBSERVER
+	(-p)PGM=OSPtoRINEX V2.1 
+	(-q)RUNBY=RUNBY
+	(-r)RINEX=PNT1
+	(-s)SELSYS=
+	(-u)MRKNUM=MRKNUM
+	(-v)VER=V210
+	(-y)AGENCY=AGENCY
+ 20:26:03 (INF) Operators:
+	DATA.OSP
+ 2018-02-21 20:26:03 (SVR) logging END
+ 2018-02-21 20:28:35 (SVR) ../bin/OSPtoRINEX V2.1 Feb 19 2018 START
+ 20:28:35 (INF) Options:
+	(-a)APPEND=FALSE
+	(-b)APBIAS=TRUE
+	(-c)MID8R=FALSE
+	(-d)MID8G=FALSE
+	(-h)HELP=FALSE
+	(-i)MINSV=4
+	(-j)ANTN=Antenna#
+	(-k)ANTT=AntennaType
+	(-l)LOGLEVEL=INFO
+	(-m)MRKNAM=MRKNAM
+	(-n)NAVI=TRUE
+	(-o)OBSERVER=OBSERVER
+	(-p)PGM=OSPtoRINEX V2.1 
+	(-q)RUNBY=RUNBY
+	(-r)RINEX=PNT1
+	(-s)SELSYS=
+	(-u)MRKNUM=MRKNUM
+	(-v)VER=V210
+	(-y)AGENCY=AGENCY
+ 20:28:35 (INF) Operators:
+	20180221_200536.OSP
+ 20:28:35 (INF) Filtering data stated:
+ 20:28:35 (INF) Sel sys-sats for nav: G
+ 20:28:35 (INF) Selected sys=G; sats=; obs=C1C L1C D1C S1C 
+ 20:28:35 (INF) RINEX header data acquisition:
+ 20:28:35 (INF) Header data acquired: Aprox. position; 1st epoch time; Observation interval; Receiver version
+ 20:28:35 (INF) Filtering data stated:
+ 20:28:35 (INF) Sel sys-sats for nav: G
+ 20:28:35 (INF) Selected sys=G; sats=; obs=C1C L1C D1C S1C 
+ 20:28:35 (INF) End of RINEX generation. Epochs read: 60
+ 2018-02-21 20:28:35 (SVR) logging END
+ 2018-02-21 20:29:24 (SVR) ../bin/OSPtoRINEX V2.1 Feb 19 2018 START
+ 20:29:24 (INF) Options:
+	(-a)APPEND=FALSE
+	(-b)APBIAS=TRUE
+	(-c)MID8R=FALSE
+	(-d)MID8G=FALSE
+	(-h)HELP=FALSE
+	(-i)MINSV=4
+	(-j)ANTN=Antenna#
+	(-k)ANTT=AntennaType
+	(-l)LOGLEVEL=INFO
+	(-m)MRKNAM=MRKNAM
+	(-n)NAVI=TRUE
+	(-o)OBSERVER=OBSERVER
+	(-p)PGM=OSPtoRINEX V2.1 
+	(-q)RUNBY=RUNBY
+	(-r)RINEX=PNT1
+	(-s)SELSYS=
+	(-u)MRKNUM=MRKNUM
+	(-v)VER=V302
+	(-y)AGENCY=AGENCY
+ 20:29:24 (INF) Operators:
+	20180221_200536.OSP
+ 20:29:24 (INF) Filtering data stated:
+ 20:29:24 (INF) Sel sys-sats for nav: G
+ 20:29:24 (INF) Selected sys=G; sats=; obs=C1C L1C D1C S1C 
+ 20:29:24 (INF) RINEX header data acquisition:
+ 20:29:24 (INF) Header data acquired: Aprox. position; 1st epoch time; Observation interval; Receiver version
+ 20:29:24 (WRN) MARKER TYPE:  header record is obligatory, but has not data
+ 20:29:24 (INF) Filtering data stated:
+ 20:29:24 (INF) Sel sys-sats for nav: M
+ 20:29:24 (WRN) Sel system in sat M not in SYS/TOBS records
+ 20:29:24 (INF) Selected sys=G; sats=; obs=C1C L1C D1C S1C 
+ 20:29:24 (INF) End of RINEX generation. Epochs read: 60
+ 2018-02-21 20:29:24 (SVR) logging END
+ 2018-02-21 20:31:04 (SVR) ../bin/RINEXtoRINEX V1.1 START
+ 20:31:04 (INF) Options:
+	(-f)FROMT=
+	(-k)SKIPE=FALSE
+	(-h)HELP=TRUE
+	(-l)LOGLEVEL=INFO
+	(-o)SELOBS3=
+	(-p)SELOBS2=
+	(-r)RINEX=RTOR
+	(-s)SELSAT=
+	(-t)TOT=
+	(-u)RUNBY=Run by
+	(-v)VER=TBD
+ 20:31:04 (INF) Operators:
+	RINEX.DAT
+ 2018-02-21 20:31:04 (SVR) logging END
+ 2018-02-21 20:33:24 (SVR) ../bin/RINEXtoRINEX V1.1 START
+ 20:33:24 (INF) Options:
+	(-f)FROMT=
+	(-k)SKIPE=FALSE
+	(-h)HELP=FALSE
+	(-l)LOGLEVEL=INFO
+	(-o)SELOBS3=
+	(-p)SELOBS2=
+	(-r)RINEX=RTOR
+	(-s)SELSAT=
+	(-t)TOT=
+	(-u)RUNBY=Run by
+	(-v)VER=V302
+ 20:33:24 (INF) Operators:
+	PNT1052t05.18O
+ 20:33:24 (INF) Filtering data cleared
+ 20:33:24 (WRN) MARKER TYPE:  header record is obligatory, but has not data
+ 20:33:24 (INF) End of RINEX generation. Epochs: good=60 bad=0 skiped=0
+ 2018-02-21 20:33:24 (SVR) logging END
+ 2018-02-21 20:34:19 (SVR) ../bin/RINEXtoRINEX V1.1 START
+ 20:34:19 (INF) Options:
+	(-f)FROMT=
+	(-k)SKIPE=FALSE
+	(-h)HELP=FALSE
+	(-l)LOGLEVEL=INFO
+	(-o)SELOBS3=
+	(-p)SELOBS2=
+	(-r)RINEX=RTOR
+	(-s)SELSAT=
+	(-t)TOT=
+	(-u)RUNBY=Run by
+	(-v)VER=V302
+ 20:34:19 (INF) Operators:
+	PNT1052r59.18N
+ 20:34:19 (INF) Filtering data cleared
+ 20:34:19 (INF) End of RINEX generation. Epochs: good=14 bad=0 skiped=0
+ 2018-02-21 20:34:19 (SVR) logging END
+ 2018-02-21 20:37:25 (SVR) ../bin/RINEXtoCSV V1.1 START
+ 20:37:25 (INF) Options:
+	(-f)FROMT=
+	(-h)HELP=FALSE
+	(-l)LOGLEVEL=INFO
+	(-o)SELOBS3=
+	(-p)SELOBS2=
+	(-s)SELSAT=
+	(-t)TOT=
+ 20:37:25 (INF) Operators:
+	PNT1052t05.18O
+ 20:37:25 (INF) Filtering data cleared
+ 2018-02-21 20:37:25 (SVR) Mismatch argument types in RINEX label identifier RINEX VERSION / TYPE (setHdLnData)Incorrect params in getHdLnData call for RINEX VERSION / TYPE
+ 2018-02-21 20:37:25 (SVR) logging END

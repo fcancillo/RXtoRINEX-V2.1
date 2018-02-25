@@ -1,0 +1,1141 @@
+ 2018-02-24 13:44:14 (SVR) synchroRX V1.2 START
+ 13:44:14 (INF) Options:
+	(-a)PAT=10
+	(-h)HELP=FALSE
+	(-l)LOGLEVEL=FINEST
+	(-p)COMPORT=COM35
+	(-m)MODE=NMEA
+ 13:44:14 (INF) Wanted receiver mode: NMEA at 9600
+ 13:44:14 (INF) Computer port initial settings: BaudRate=9600; Timeout=50; RawMode=T
+ 13:44:14 (INF) As computer port baud rate is for NMEA, check if receiver is in NMEA mode
+ 13:44:14 (INF) Checked receiver NMEA mode: In attempt 1, message OK
+ 13:44:14 (FNE) NMEA message received: GPGGA,124410.000,4028.1782,N,00351.9231,W,1,08,1.5,739.3,M,51.7,M,,0000
+ 13:44:14 (INF) Receiver initial protocol: NMEA
+ 13:44:14 (INF) Receiver final protocol: NMEA. Change is OK
+ 13:44:14 (INF) Computer port final settings: BaudRate=9600; Timeout=50; RawMode=T
+
+ 2018-02-24 13:44:14 (SVR) logging END
+ 2018-02-24 13:44:36 (SVR) synchroRX V1.2 START
+ 13:44:36 (INF) Options:
+	(-a)PAT=10
+	(-h)HELP=FALSE
+	(-l)LOGLEVEL=FINEST
+	(-p)COMPORT=COM35
+	(-m)MODE=OSP
+ 13:44:36 (INF) Wanted receiver mode: OSP at 57600
+ 13:44:36 (INF) Computer port initial settings: BaudRate=9600; Timeout=50; RawMode=T
+ 13:44:36 (INF) As computer port baud rate is for NMEA, check if receiver is in NMEA mode
+ 13:44:37 (INF) Checked receiver NMEA mode: In attempt 1, message OK
+ 13:44:37 (FNE) NMEA message received: GPGGA,124433.000,4028.1781,N,00351.9235,W,1,08,1.5,739.2,M,51.7,M,,0000
+ 13:44:37 (INF) Receiver initial protocol: NMEA
+ 13:44:37 (INF) In receiver NMEA mode, sends NMEA 100 to change to osp at 57600 bps
+ 13:44:52 (INF) Checked receiver OSP mode: In attempt 5, message OK
+ 13:44:52 (FNE) OSP message received: MID=28 len=56
+ 13:44:52 (INF) Receiver final protocol: OSP. Change is OK
+ 13:44:52 (INF) Computer port final settings: BaudRate=57600; Timeout=50; RawMode=T
+
+ 2018-02-24 13:44:52 (SVR) logging END
+ 2018-02-24 13:45:50 (SVR) RXtoOSP V2.1 START
+ 13:45:50 (INF) Options:
+	(-a)PAT=500
+	(-b)BAUD=57600
+	(-d)DURATION=5
+	(-e)EPHEM=TRUE
+	(-f)BFILE=20180224_134550.OSP
+	(-g)G50BPS=FALSE
+	(-h)HELP=TRUE
+	(-i)OBSINT=5
+	(-l)LOGLEVEL=INFO
+	(-p)COMPORT=COM35
+	(-s)MID=7
+ 2018-02-24 13:45:50 (SVR) logging END
+ 2018-02-24 13:46:59 (SVR) RXtoOSP V2.1 START
+ 13:46:59 (INF) Options:
+	(-a)PAT=10
+	(-b)BAUD=57600
+	(-d)DURATION=1
+	(-e)EPHEM=TRUE
+	(-f)BFILE=20180224_134659.OSP
+	(-g)G50BPS=FALSE
+	(-h)HELP=FALSE
+	(-i)OBSINT=5
+	(-l)LOGLEVEL=FINEST
+	(-p)COMPORT=COM35
+	(-s)MID=7
+ 13:47:07 (INF) W OSP<166> b10 pld:02 00 5 00 00 00 00. Enable all massesges at the interval stated
+ 13:47:07 (INF) W OSP<166> b16 pld:04 00 00 00 00 00 00. Disable debug msgs
+ 13:47:07 (INF) W OSP<166> b16 pld:00 1D 00 00 00 00 00. Disable navigation debug message 29
+ 13:47:07 (INF) W OSP<166> b16 pld:00 1E 00 00 00 00 00. Disable navigation debug message 30
+ 13:47:07 (INF) W OSP<166> b16 pld:00 1F 00 00 00 00 00. Disable navigation debug message 31
+ 13:47:07 (INF) W OSP<166> b16 pld:00 04 00 00 00 00 00. Disable message 4 navigation
+ 13:47:07 (INF) W OSP<166> b16 pld:00 08 00 00 00 00 00. Disable message 8 50 BPD data
+ 13:47:07 (INF) W OSP<166> b16 pld:00 40 00 00 00 00 00. Disable message 64 aux measurements data
+ 13:47:07 (INF) W OSP<166> b16 pld:00 32 00 00 00 00 00. Disable message 50 SBAS stat
+ 13:47:07 (INF) W OSP<166> b16 pld:00 29 00 00 00 00 00. Disable message 41 Geodetic nav
+ 13:47:07 (INF) W OSP<132> b16 pld:00. Poll Software Version. Answer in MID6
+ 13:47:07 (INF) W OSP<152> b16 pld:00. Poll Navigation parameters. Answer in MID19
+ 13:47:07 (INF) W OSP<147> b16 pld:00 00. Poll ephemeris. Answer in MID15
+ 13:47:07 (INF) W OSP<147> b16 pld:00 00. Poll ephemeris. Answer in MID15
+ 13:47:07 (INF) W OSP<147> b16 pld:00 00. Poll ephemeris. Answer in MID15
+ 13:47:07 (INF) W OSP<212> b16 pld:0C. In SiRFV: GLONASS Broadcast Ephemeris Request SID12. Answer in MID70 SID12
+ 13:47:07 (INF) W OSP<212> b16 pld:0C. In SiRFV: GLONASS Broadcast Ephemeris Request SID12. Answer in MID70 SID12
+ 13:47:07 (INF) W OSP<212> b16 pld:0C. In SiRFV: GLONASS Broadcast Ephemeris Request SID12. Answer in MID70 SID12
+ 13:47:07 (FNS) R OSP<28:56> OK
+ 13:47:07 (FNS) R OSP<28:56> OK
+ 13:47:07 (FNS) R OSP<28:56> OK
+ 13:47:07 (FNS) R OSP<28:56> OK
+ 13:47:07 (FNS) R OSP<28:56> OK
+ 13:47:07 (FNS) R OSP<28:56> OK
+ 13:47:07 (FNS) R OSP<28:56> OK
+ 13:47:07 (FNS) R OSP<28:56> OK
+ 13:47:07 (FNS) R OSP<28:56> OK
+ 13:47:07 (FNS) R OSP<2:41> OK
+ 13:47:07 (FNS) R OSP<7:20> OK
+ 13:47:07 (FNS) R OSP<11:3> OK
+ 13:47:07 (FNS) R OSP<11:3> OK
+ 13:47:07 (FNS) R OSP<11:3> OK
+ 13:47:07 (FNS) R OSP<11:3> OK
+ 13:47:07 (FNS) R OSP<11:3> OK
+ 13:47:07 (FNS) R OSP<11:3> OK
+ 13:47:07 (FNS) R OSP<11:3> OK
+ 13:47:07 (FNS) R OSP<11:3> OK
+ 13:47:07 (FNS) R OSP<11:3> OK
+ 13:47:07 (FNS) R OSP<11:3> OK
+ 13:47:07 (FNS) R OSP<6:39> OK
+ 13:47:07 (FNS) R OSP<11:3> OK
+ 13:47:07 (FNS) R OSP<19:65> OK
+ 13:47:07 (FNS) R OSP<11:3> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<11:3> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<11:3> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:07 (FNS) R OSP<15:92> OK
+ 13:47:08 (FNS) R OSP<15:92> OK
+ 13:47:08 (FNS) R OSP<15:92> OK
+ 13:47:08 (FNS) R OSP<15:92> OK
+ 13:47:08 (FNS) R OSP<15:92> OK
+ 13:47:08 (FNS) R OSP<11:3> OK
+ 13:47:08 (FNS) R OSP<75:7> OK
+ 13:47:08 (FNS) R OSP<75:7> OK
+ 13:47:08 (FNS) R OSP<75:7> OK
+ 13:47:11 (WRN) Error reading. Patience exahusted or EOF
+ 13:47:11 (INF) nMsgs:61 nEpochs:1
+ 2018-02-24 13:47:11 (SVR) logging END
+ 2018-02-24 13:49:02 (SVR) RXtoOSP V2.1 START
+ 13:49:02 (INF) Options:
+	(-a)PAT=500
+	(-b)BAUD=57600
+	(-d)DURATION=1
+	(-e)EPHEM=TRUE
+	(-f)BFILE=20180224_134902.OSP
+	(-g)G50BPS=FALSE
+	(-h)HELP=FALSE
+	(-i)OBSINT=5
+	(-l)LOGLEVEL=FINEST
+	(-p)COMPORT=COM35
+	(-s)MID=7
+ 13:49:12 (INF) W OSP<166> b10 pld:02 00 5 00 00 00 00. Enable all massesges at the interval stated
+ 13:49:12 (INF) W OSP<166> b16 pld:04 00 00 00 00 00 00. Disable debug msgs
+ 13:49:12 (INF) W OSP<166> b16 pld:00 1D 00 00 00 00 00. Disable navigation debug message 29
+ 13:49:12 (INF) W OSP<166> b16 pld:00 1E 00 00 00 00 00. Disable navigation debug message 30
+ 13:49:12 (INF) W OSP<166> b16 pld:00 1F 00 00 00 00 00. Disable navigation debug message 31
+ 13:49:12 (INF) W OSP<166> b16 pld:00 04 00 00 00 00 00. Disable message 4 navigation
+ 13:49:12 (INF) W OSP<166> b16 pld:00 08 00 00 00 00 00. Disable message 8 50 BPD data
+ 13:49:12 (INF) W OSP<166> b16 pld:00 40 00 00 00 00 00. Disable message 64 aux measurements data
+ 13:49:12 (INF) W OSP<166> b16 pld:00 32 00 00 00 00 00. Disable message 50 SBAS stat
+ 13:49:12 (INF) W OSP<166> b16 pld:00 29 00 00 00 00 00. Disable message 41 Geodetic nav
+ 13:49:12 (INF) W OSP<132> b16 pld:00. Poll Software Version. Answer in MID6
+ 13:49:12 (INF) W OSP<152> b16 pld:00. Poll Navigation parameters. Answer in MID19
+ 13:49:12 (INF) W OSP<147> b16 pld:00 00. Poll ephemeris. Answer in MID15
+ 13:49:12 (INF) W OSP<147> b16 pld:00 00. Poll ephemeris. Answer in MID15
+ 13:49:12 (INF) W OSP<147> b16 pld:00 00. Poll ephemeris. Answer in MID15
+ 13:49:12 (INF) W OSP<212> b16 pld:0C. In SiRFV: GLONASS Broadcast Ephemeris Request SID12. Answer in MID70 SID12
+ 13:49:12 (INF) W OSP<212> b16 pld:0C. In SiRFV: GLONASS Broadcast Ephemeris Request SID12. Answer in MID70 SID12
+ 13:49:12 (INF) W OSP<212> b16 pld:0C. In SiRFV: GLONASS Broadcast Ephemeris Request SID12. Answer in MID70 SID12
+ 13:49:12 (FNS) R OSP<28:56> OK
+ 13:49:12 (FNS) R OSP<28:56> OK
+ 13:49:12 (FNS) R OSP<28:56> OK
+ 13:49:12 (FNS) R OSP<28:56> OK
+ 13:49:12 (FNS) R OSP<28:56> OK
+ 13:49:12 (FNS) R OSP<28:56> OK
+ 13:49:12 (FNS) R OSP<28:56> OK
+ 13:49:12 (FNS) R OSP<28:56> OK
+ 13:49:12 (FNS) R OSP<2:41> OK
+ 13:49:12 (FNS) R OSP<7:20> OK
+ 13:49:12 (FNS) R OSP<11:3> OK
+ 13:49:12 (FNS) R OSP<11:3> OK
+ 13:49:12 (FNS) R OSP<11:3> OK
+ 13:49:12 (FNS) R OSP<11:3> OK
+ 13:49:12 (FNS) R OSP<11:3> OK
+ 13:49:12 (FNS) R OSP<11:3> OK
+ 13:49:12 (FNS) R OSP<11:3> OK
+ 13:49:12 (FNS) R OSP<11:3> OK
+ 13:49:12 (FNS) R OSP<11:3> OK
+ 13:49:12 (FNS) R OSP<11:3> OK
+ 13:49:12 (FNS) R OSP<6:39> OK
+ 13:49:12 (FNS) R OSP<11:3> OK
+ 13:49:12 (FNS) R OSP<19:65> OK
+ 13:49:12 (FNS) R OSP<11:3> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<11:3> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<11:3> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:12 (FNS) R OSP<15:92> OK
+ 13:49:13 (FNS) R OSP<15:92> OK
+ 13:49:13 (FNS) R OSP<15:92> OK
+ 13:49:13 (FNS) R OSP<15:92> OK
+ 13:49:13 (FNS) R OSP<11:3> OK
+ 13:49:13 (FNS) R OSP<75:7> OK
+ 13:49:13 (FNS) R OSP<75:7> OK
+ 13:49:13 (FNS) R OSP<75:7> OK
+ 13:49:17 (FNS) R OSP<28:56> OK
+ 13:49:17 (FNS) R OSP<28:56> OK
+ 13:49:17 (FNS) R OSP<28:56> OK
+ 13:49:17 (FNS) R OSP<28:56> OK
+ 13:49:17 (FNS) R OSP<28:56> OK
+ 13:49:17 (FNS) R OSP<28:56> OK
+ 13:49:17 (FNS) R OSP<28:56> OK
+ 13:49:17 (FNS) R OSP<28:56> OK
+ 13:49:17 (FNS) R OSP<28:56> OK
+ 13:49:17 (FNS) R OSP<2:41> OK
+ 13:49:17 (FNS) R OSP<7:20> OK
+ 13:49:22 (FNS) R OSP<28:56> OK
+ 13:49:22 (FNS) R OSP<28:56> OK
+ 13:49:22 (FNS) R OSP<28:56> OK
+ 13:49:22 (FNS) R OSP<28:56> OK
+ 13:49:22 (FNS) R OSP<28:56> OK
+ 13:49:22 (FNS) R OSP<28:56> OK
+ 13:49:22 (FNS) R OSP<28:56> OK
+ 13:49:22 (FNS) R OSP<28:56> OK
+ 13:49:22 (FNS) R OSP<28:56> OK
+ 13:49:22 (FNS) R OSP<2:41> OK
+ 13:49:22 (FNS) R OSP<7:20> OK
+ 13:49:27 (FNS) R OSP<28:56> OK
+ 13:49:27 (FNS) R OSP<28:56> OK
+ 13:49:27 (FNS) R OSP<28:56> OK
+ 13:49:27 (FNS) R OSP<28:56> OK
+ 13:49:27 (FNS) R OSP<28:56> OK
+ 13:49:27 (FNS) R OSP<28:56> OK
+ 13:49:27 (FNS) R OSP<28:56> OK
+ 13:49:27 (FNS) R OSP<28:56> OK
+ 13:49:27 (FNS) R OSP<28:56> OK
+ 13:49:27 (FNS) R OSP<2:41> OK
+ 13:49:27 (FNS) R OSP<7:20> OK
+ 13:49:32 (FNS) R OSP<28:56> OK
+ 13:49:32 (FNS) R OSP<28:56> OK
+ 13:49:32 (FNS) R OSP<28:56> OK
+ 13:49:32 (FNS) R OSP<28:56> OK
+ 13:49:32 (FNS) R OSP<28:56> OK
+ 13:49:32 (FNS) R OSP<28:56> OK
+ 13:49:32 (FNS) R OSP<28:56> OK
+ 13:49:32 (FNS) R OSP<28:56> OK
+ 13:49:32 (FNS) R OSP<28:56> OK
+ 13:49:32 (FNS) R OSP<2:41> OK
+ 13:49:32 (FNS) R OSP<7:20> OK
+ 13:49:37 (FNS) R OSP<28:56> OK
+ 13:49:37 (FNS) R OSP<28:56> OK
+ 13:49:37 (FNS) R OSP<28:56> OK
+ 13:49:37 (FNS) R OSP<28:56> OK
+ 13:49:37 (FNS) R OSP<28:56> OK
+ 13:49:37 (FNS) R OSP<28:56> OK
+ 13:49:37 (FNS) R OSP<28:56> OK
+ 13:49:37 (FNS) R OSP<28:56> OK
+ 13:49:37 (FNS) R OSP<28:56> OK
+ 13:49:37 (FNS) R OSP<2:41> OK
+ 13:49:37 (FNS) R OSP<7:20> OK
+ 13:49:42 (FNS) R OSP<28:56> OK
+ 13:49:42 (FNS) R OSP<28:56> OK
+ 13:49:42 (FNS) R OSP<28:56> OK
+ 13:49:42 (FNS) R OSP<28:56> OK
+ 13:49:42 (FNS) R OSP<28:56> OK
+ 13:49:42 (FNS) R OSP<28:56> OK
+ 13:49:42 (FNS) R OSP<28:56> OK
+ 13:49:42 (FNS) R OSP<28:56> OK
+ 13:49:42 (FNS) R OSP<28:56> OK
+ 13:49:42 (FNS) R OSP<2:41> OK
+ 13:49:42 (FNS) R OSP<7:20> OK
+ 13:49:47 (FNS) R OSP<28:56> OK
+ 13:49:47 (FNS) R OSP<28:56> OK
+ 13:49:47 (FNS) R OSP<28:56> OK
+ 13:49:47 (FNS) R OSP<28:56> OK
+ 13:49:47 (FNS) R OSP<28:56> OK
+ 13:49:47 (FNS) R OSP<28:56> OK
+ 13:49:47 (FNS) R OSP<28:56> OK
+ 13:49:47 (FNS) R OSP<28:56> OK
+ 13:49:47 (FNS) R OSP<28:56> OK
+ 13:49:47 (FNS) R OSP<2:41> OK
+ 13:49:47 (FNS) R OSP<7:20> OK
+ 13:49:52 (FNS) R OSP<28:56> OK
+ 13:49:52 (FNS) R OSP<28:56> OK
+ 13:49:52 (FNS) R OSP<28:56> OK
+ 13:49:52 (FNS) R OSP<28:56> OK
+ 13:49:52 (FNS) R OSP<28:56> OK
+ 13:49:52 (FNS) R OSP<28:56> OK
+ 13:49:52 (FNS) R OSP<28:56> OK
+ 13:49:52 (FNS) R OSP<28:56> OK
+ 13:49:52 (FNS) R OSP<28:56> OK
+ 13:49:52 (FNS) R OSP<2:41> OK
+ 13:49:52 (FNS) R OSP<7:20> OK
+ 13:49:57 (FNS) R OSP<28:56> OK
+ 13:49:57 (FNS) R OSP<28:56> OK
+ 13:49:57 (FNS) R OSP<28:56> OK
+ 13:49:57 (FNS) R OSP<28:56> OK
+ 13:49:57 (FNS) R OSP<28:56> OK
+ 13:49:57 (FNS) R OSP<28:56> OK
+ 13:49:57 (FNS) R OSP<28:56> OK
+ 13:49:57 (FNS) R OSP<28:56> OK
+ 13:49:57 (FNS) R OSP<28:56> OK
+ 13:49:57 (FNS) R OSP<2:41> OK
+ 13:49:57 (FNS) R OSP<7:20> OK
+ 13:50:02 (FNS) R OSP<28:56> OK
+ 13:50:02 (FNS) R OSP<28:56> OK
+ 13:50:02 (FNS) R OSP<28:56> OK
+ 13:50:02 (FNS) R OSP<28:56> OK
+ 13:50:02 (FNS) R OSP<28:56> OK
+ 13:50:02 (FNS) R OSP<28:56> OK
+ 13:50:02 (FNS) R OSP<28:56> OK
+ 13:50:02 (FNS) R OSP<28:56> OK
+ 13:50:02 (FNS) R OSP<28:56> OK
+ 13:50:02 (FNS) R OSP<2:41> OK
+ 13:50:02 (FNS) R OSP<7:20> OK
+ 13:50:07 (FNS) R OSP<28:56> OK
+ 13:50:07 (FNS) R OSP<28:56> OK
+ 13:50:07 (FNS) R OSP<28:56> OK
+ 13:50:07 (FNS) R OSP<28:56> OK
+ 13:50:07 (FNS) R OSP<28:56> OK
+ 13:50:07 (FNS) R OSP<28:56> OK
+ 13:50:07 (FNS) R OSP<28:56> OK
+ 13:50:07 (FNS) R OSP<28:56> OK
+ 13:50:07 (FNS) R OSP<28:56> OK
+ 13:50:07 (FNS) R OSP<2:41> OK
+ 13:50:07 (FNS) R OSP<7:20> OK
+ 13:50:07 (INF) Acq End; nMsgs:181 nEpochs:12
+ 2018-02-24 13:50:07 (SVR) logging END
+ 2018-02-24 13:51:17 (SVR) osptotxt V1.1 START
+ 13:51:17 (INF) Options:
+	(-h)HELP=TRUE
+	(-l)LOGLEVEL=INFO
+ 13:51:17 (INF) Operators:
+	DATA.OSP
+ 2018-02-24 13:51:17 (SVR) logging END
+ 2018-02-24 13:51:42 (SVR) osptotxt V1.1 START
+ 13:51:42 (INF) Options:
+	(-h)HELP=FALSE
+	(-l)LOGLEVEL=FINEST
+ 13:51:42 (INF) Operators:
+	20180224_134902.OSP
+ 13:51:43 (INF) End of data extraction. Messages read: 181
+ 2018-02-24 13:51:43 (SVR) logging END
+ 2018-02-24 13:52:08 (SVR) osptotxt V1.1 START
+ 13:52:08 (INF) Options:
+	(-h)HELP=FALSE
+	(-l)LOGLEVEL=FINEST
+ 13:52:08 (INF) Operators:
+	20180224_134902.OSP
+ 13:52:08 (INF) End of data extraction. Messages read: 181
+ 2018-02-24 13:52:08 (SVR) logging END
+ 2018-02-24 13:53:00 (SVR) osptorinex V2.0 Feb 24 2018 START
+ 13:53:00 (INF) Options:
+	(-a)APPEND=FALSE
+	(-b)APBIAS=TRUE
+	(-c)MID8R=FALSE
+	(-d)MID8G=FALSE
+	(-h)HELP=TRUE
+	(-i)MINSV=4
+	(-j)ANTN=Antenna#
+	(-k)ANTT=AntennaType
+	(-l)LOGLEVEL=INFO
+	(-m)MRKNAM=MRKNAM
+	(-n)NAVI=FALSE
+	(-o)OBSERVER=OBSERVER
+	(-p)PGM=OSPtoRINEX V2.0 
+	(-q)RUNBY=RUNBY
+	(-r)RINEX=PNT1
+	(-s)SELSYS=
+	(-u)MRKNUM=MRKNUM
+	(-v)VER=V210
+	(-y)AGENCY=AGENCY
+ 13:53:00 (INF) Operators:
+	DATA.OSP
+ 2018-02-24 13:53:00 (SVR) logging END
+ 2018-02-24 13:53:42 (SVR) osptorinex V2.0 Feb 24 2018 START
+ 13:53:42 (INF) Options:
+	(-a)APPEND=FALSE
+	(-b)APBIAS=TRUE
+	(-c)MID8R=FALSE
+	(-d)MID8G=FALSE
+	(-h)HELP=FALSE
+	(-i)MINSV=4
+	(-j)ANTN=Antenna#
+	(-k)ANTT=AntennaType
+	(-l)LOGLEVEL=FINEST
+	(-m)MRKNAM=MRKNAM
+	(-n)NAVI=FALSE
+	(-o)OBSERVER=OBSERVER
+	(-p)PGM=OSPtoRINEX V2.0 
+	(-q)RUNBY=RUNBY
+	(-r)RINEX=PNT1
+	(-s)SELSYS=
+	(-u)MRKNUM=MRKNUM
+	(-v)VER=V210
+	(-y)AGENCY=AGENCY
+ 13:53:42 (INF) Operators:
+	20180224_134902.OSP
+ 13:53:42 (INF) Filtering data stated:
+ 13:53:42 (INF) Sel sys-sats for nav: G
+ 13:53:42 (INF) Selected sys=G; sats=; obs=C1C L1C D1C S1C 
+ 13:53:42 (INF) RINEX header data acquisition:
+ 13:53:42 (FNR) MID2 tow=564563 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:53:42 (FNR) MID7 time week=1989 tow=564563 bias=0.0372088
+ 13:53:42 (FNR) MID6 swV=GSD4e_4.0.4-P1 08/13/2010 225
+ 13:53:42 (FNR) MID7 interval week=1989 tow=564568 interval=5
+ 13:53:42 (INF) Header data acquired: Aprox. position; 1st epoch time; Observation interval; Receiver version
+ 13:53:42 (FNR) MID28 tTag=564563 ch= 1 sv=13 sat=G13 psr=3.17825e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564563 ch= 2 sv=24 sat=G24 psr=3.27479e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564563 ch= 3 sv=20 sat=G20 psr=3.26765e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564563 ch= 4 sv=28 sat=G28 psr=3.45573e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564563 ch= 5 sv=17 sat=G17 psr=3.51808e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564563 ch= 6 sv= 5 sat=G05 psr=3.53861e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564563 ch= 7 sv=12 sat=G12 psr=3.51511e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564563 ch= 8 sv=19 sat=G19 psr=3.5652e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID7 time week=1989 tow=564563 bias=0.0372088
+ 13:53:42 (FNE) Epoch 564563 sats=8
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=5 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G05 at=1.20352e+009  saved
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=12 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G12 at=1.20352e+009  saved
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=13 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G13 at=1.20352e+009  saved
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=15 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G15 at=1.20352e+009  saved
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=17 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G17 at=1.20352e+009  saved
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=19 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G19 at=1.20352e+009  saved
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=20 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G20 at=1.20352e+009  saved
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=24 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G24 at=1.20352e+009  saved
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=28 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G28 at=1.20352e+009  saved
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=30 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G30 at=1.20352e+009  saved
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=5 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G05 at=1.20352e+009  already exist
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=12 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G12 at=1.20352e+009  already exist
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=13 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G13 at=1.20352e+009  already exist
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=15 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G15 at=1.20352e+009  already exist
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=17 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G17 at=1.20352e+009  already exist
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=19 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G19 at=1.20352e+009  already exist
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=20 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G20 at=1.20352e+009  already exist
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=24 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G24 at=1.20352e+009  already exist
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=28 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G28 at=1.20352e+009  already exist
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=30 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G30 at=1.20352e+009  already exist
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=5 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G05 at=1.20352e+009  already exist
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=12 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G12 at=1.20352e+009  already exist
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=13 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G13 at=1.20352e+009  already exist
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=15 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G15 at=1.20352e+009  already exist
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=17 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G17 at=1.20352e+009  already exist
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=19 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G19 at=1.20352e+009  already exist
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=20 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G20 at=1.20352e+009  already exist
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=24 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G24 at=1.20352e+009  already exist
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=28 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G28 at=1.20352e+009  already exist
+ 13:53:42 (FNR) MID15 GPS ephemeris sv=30 Ephemeris OK
+ 13:53:42 (FNE) Ephemeris for sat=G30 at=1.20352e+009  already exist
+ 13:53:42 (FNR) MID28 tTag=564568 ch= 0 sv=15 sat=G15 psr=3.15897e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564568 ch= 1 sv=13 sat=G13 psr=3.18705e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564568 ch= 2 sv=24 sat=G24 psr=3.28329e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564568 ch= 3 sv=20 sat=G20 psr=3.27651e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564568 ch= 4 sv=28 sat=G28 psr=3.46469e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564568 ch= 5 sv=17 sat=G17 psr=3.52659e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564568 ch= 6 sv= 5 sat=G05 psr=3.54765e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564568 ch= 7 sv=12 sat=G12 psr=3.52342e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564568 ch= 8 sv=19 sat=G19 psr=3.57361e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID7 time week=1989 tow=564568 bias=0.0374986
+ 13:53:42 (FNE) Epoch 564568 sats=9
+ 13:53:42 (FNR) MID28 tTag=564573 ch= 0 sv=15 sat=G15 psr=3.1676e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564573 ch= 1 sv=13 sat=G13 psr=3.19585e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564573 ch= 2 sv=24 sat=G24 psr=3.29179e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564573 ch= 3 sv=20 sat=G20 psr=3.28537e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564573 ch= 4 sv=28 sat=G28 psr=3.47364e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564573 ch= 5 sv=17 sat=G17 psr=3.5351e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564573 ch= 6 sv= 5 sat=G05 psr=3.55668e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564573 ch= 7 sv=12 sat=G12 psr=3.53173e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564573 ch= 8 sv=19 sat=G19 psr=3.58201e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID7 time week=1989 tow=564573 bias=0.0377884
+ 13:53:42 (FNE) Epoch 564573 sats=9
+ 13:53:42 (FNR) MID28 tTag=564578 ch= 0 sv=15 sat=G15 psr=3.17623e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564578 ch= 1 sv=13 sat=G13 psr=3.20465e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564578 ch= 2 sv=24 sat=G24 psr=3.30029e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564578 ch= 3 sv=20 sat=G20 psr=3.29423e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564578 ch= 4 sv=28 sat=G28 psr=3.48259e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564578 ch= 5 sv=17 sat=G17 psr=3.54361e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564578 ch= 6 sv= 5 sat=G05 psr=3.56572e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564578 ch= 7 sv=12 sat=G12 psr=3.54004e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564578 ch= 8 sv=19 sat=G19 psr=3.59041e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID7 time week=1989 tow=564578 bias=0.0380782
+ 13:53:42 (FNE) Epoch 564578 sats=9
+ 13:53:42 (FNR) MID28 tTag=564583 ch= 0 sv=15 sat=G15 psr=3.18486e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564583 ch= 1 sv=13 sat=G13 psr=3.21344e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564583 ch= 2 sv=24 sat=G24 psr=3.30879e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564583 ch= 3 sv=20 sat=G20 psr=3.30308e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564583 ch= 4 sv=28 sat=G28 psr=3.49155e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564583 ch= 5 sv=17 sat=G17 psr=3.55212e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564583 ch= 6 sv= 5 sat=G05 psr=3.57476e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564583 ch= 7 sv=12 sat=G12 psr=3.54835e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564583 ch= 8 sv=19 sat=G19 psr=3.59881e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID7 time week=1989 tow=564583 bias=0.0383679
+ 13:53:42 (FNE) Epoch 564583 sats=9
+ 13:53:42 (FNR) MID28 tTag=564588 ch= 0 sv=15 sat=G15 psr=3.1935e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564588 ch= 1 sv=13 sat=G13 psr=3.22224e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564588 ch= 2 sv=24 sat=G24 psr=3.31729e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564588 ch= 3 sv=20 sat=G20 psr=3.31194e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564588 ch= 4 sv=28 sat=G28 psr=3.5005e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564588 ch= 5 sv=17 sat=G17 psr=3.56063e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564588 ch= 6 sv= 5 sat=G05 psr=3.58379e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564588 ch= 7 sv=12 sat=G12 psr=3.55667e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564588 ch= 8 sv=19 sat=G19 psr=3.60722e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID7 time week=1989 tow=564588 bias=0.0386577
+ 13:53:42 (FNE) Epoch 564588 sats=9
+ 13:53:42 (FNR) MID28 tTag=564593 ch= 0 sv=15 sat=G15 psr=3.20213e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564593 ch= 1 sv=13 sat=G13 psr=3.23104e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564593 ch= 2 sv=24 sat=G24 psr=3.3258e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564593 ch= 3 sv=20 sat=G20 psr=3.3208e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564593 ch= 4 sv=28 sat=G28 psr=3.50946e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564593 ch= 5 sv=17 sat=G17 psr=3.56914e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564593 ch= 6 sv= 5 sat=G05 psr=3.59283e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564593 ch= 7 sv=12 sat=G12 psr=3.56498e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564593 ch= 8 sv=19 sat=G19 psr=3.61562e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID7 time week=1989 tow=564593 bias=0.0389475
+ 13:53:42 (FNE) Epoch 564593 sats=9
+ 13:53:42 (FNR) MID28 tTag=564598 ch= 0 sv=15 sat=G15 psr=3.21077e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564598 ch= 1 sv=13 sat=G13 psr=3.23984e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564598 ch= 2 sv=24 sat=G24 psr=3.3343e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564598 ch= 3 sv=20 sat=G20 psr=3.32966e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564598 ch= 4 sv=28 sat=G28 psr=3.51841e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564598 ch= 5 sv=17 sat=G17 psr=3.57765e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564598 ch= 6 sv= 5 sat=G05 psr=3.60187e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564598 ch= 7 sv=12 sat=G12 psr=3.57329e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564598 ch= 8 sv=19 sat=G19 psr=3.62402e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID7 time week=1989 tow=564598 bias=0.0392373
+ 13:53:42 (FNE) Epoch 564598 sats=9
+ 13:53:42 (FNR) MID28 tTag=564603 ch= 0 sv=15 sat=G15 psr=3.2194e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564603 ch= 1 sv=13 sat=G13 psr=3.24864e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564603 ch= 2 sv=24 sat=G24 psr=3.3428e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564603 ch= 3 sv=20 sat=G20 psr=3.33852e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564603 ch= 4 sv=28 sat=G28 psr=3.52737e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564603 ch= 5 sv=17 sat=G17 psr=3.58616e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564603 ch= 6 sv= 5 sat=G05 psr=3.61091e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564603 ch= 7 sv=12 sat=G12 psr=3.5816e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564603 ch= 8 sv=19 sat=G19 psr=3.63243e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID7 time week=1989 tow=564603 bias=0.039527
+ 13:53:42 (FNE) Epoch 564603 sats=9
+ 13:53:42 (FNR) MID28 tTag=564608 ch= 0 sv=15 sat=G15 psr=3.22803e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564608 ch= 1 sv=13 sat=G13 psr=3.25744e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564608 ch= 2 sv=24 sat=G24 psr=3.3513e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564608 ch= 3 sv=20 sat=G20 psr=3.34738e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564608 ch= 4 sv=28 sat=G28 psr=3.53633e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564608 ch= 5 sv=17 sat=G17 psr=3.59468e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564608 ch= 6 sv= 5 sat=G05 psr=3.61994e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564608 ch= 7 sv=12 sat=G12 psr=3.58991e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564608 ch= 8 sv=19 sat=G19 psr=3.64083e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID7 time week=1989 tow=564608 bias=0.0398168
+ 13:53:42 (FNE) Epoch 564608 sats=9
+ 13:53:42 (FNR) MID28 tTag=564613 ch= 0 sv=15 sat=G15 psr=3.23667e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564613 ch= 1 sv=13 sat=G13 psr=3.26624e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564613 ch= 2 sv=24 sat=G24 psr=3.3598e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564613 ch= 3 sv=20 sat=G20 psr=3.35624e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564613 ch= 4 sv=28 sat=G28 psr=3.54528e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564613 ch= 5 sv=17 sat=G17 psr=3.60319e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564613 ch= 6 sv= 5 sat=G05 psr=3.62898e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564613 ch= 7 sv=12 sat=G12 psr=3.59823e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564613 ch= 8 sv=19 sat=G19 psr=3.64923e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID7 time week=1989 tow=564613 bias=0.0401066
+ 13:53:42 (FNE) Epoch 564613 sats=9
+ 13:53:42 (FNR) MID28 tTag=564618 ch= 0 sv=15 sat=G15 psr=3.2453e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564618 ch= 1 sv=13 sat=G13 psr=3.27504e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564618 ch= 2 sv=24 sat=G24 psr=3.36831e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564618 ch= 3 sv=20 sat=G20 psr=3.3651e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564618 ch= 4 sv=28 sat=G28 psr=3.55424e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564618 ch= 5 sv=17 sat=G17 psr=3.6117e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564618 ch= 6 sv= 5 sat=G05 psr=3.63802e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564618 ch= 7 sv=12 sat=G12 psr=3.60654e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID28 tTag=564618 ch= 8 sv=19 sat=G19 psr=3.65764e+007 SynFlg=FF SAVED
+ 13:53:42 (FNR) MID7 time week=1989 tow=564618 bias=0.0403964
+ 13:53:42 (FNE) Epoch 564618 sats=9
+ 13:53:42 (INF) End of RINEX generation. Epochs read: 12
+ 2018-02-24 13:53:42 (SVR) logging END
+ 2018-02-24 13:54:49 (SVR) osptorinex V2.0 Feb 24 2018 START
+ 13:54:49 (INF) Options:
+	(-a)APPEND=FALSE
+	(-b)APBIAS=TRUE
+	(-c)MID8R=FALSE
+	(-d)MID8G=FALSE
+	(-h)HELP=FALSE
+	(-i)MINSV=4
+	(-j)ANTN=Antenna#
+	(-k)ANTT=AntennaType
+	(-l)LOGLEVEL=FINEST
+	(-m)MRKNAM=MRKNAM
+	(-n)NAVI=TRUE
+	(-o)OBSERVER=OBSERVER
+	(-p)PGM=OSPtoRINEX V2.0 
+	(-q)RUNBY=RUNBY
+	(-r)RINEX=PNT1
+	(-s)SELSYS=
+	(-u)MRKNUM=MRKNUM
+	(-v)VER=V210
+	(-y)AGENCY=AGENCY
+ 13:54:49 (INF) Operators:
+	20180224_134902.OSP
+ 13:54:49 (INF) Filtering data stated:
+ 13:54:49 (INF) Sel sys-sats for nav: G
+ 13:54:49 (INF) Selected sys=G; sats=; obs=C1C L1C D1C S1C 
+ 13:54:49 (INF) RINEX header data acquisition:
+ 13:54:49 (FNR) MID2 tow=564563 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:54:49 (FNR) MID7 time week=1989 tow=564563 bias=0.0372088
+ 13:54:49 (FNR) MID6 swV=GSD4e_4.0.4-P1 08/13/2010 225
+ 13:54:49 (FNR) MID7 interval week=1989 tow=564568 interval=5
+ 13:54:49 (INF) Header data acquired: Aprox. position; 1st epoch time; Observation interval; Receiver version
+ 13:54:49 (FNR) MID28 tTag=564563 ch= 1 sv=13 sat=G13 psr=3.17825e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564563 ch= 2 sv=24 sat=G24 psr=3.27479e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564563 ch= 3 sv=20 sat=G20 psr=3.26765e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564563 ch= 4 sv=28 sat=G28 psr=3.45573e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564563 ch= 5 sv=17 sat=G17 psr=3.51808e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564563 ch= 6 sv= 5 sat=G05 psr=3.53861e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564563 ch= 7 sv=12 sat=G12 psr=3.51511e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564563 ch= 8 sv=19 sat=G19 psr=3.5652e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID7 time week=1989 tow=564563 bias=0.0372088
+ 13:54:49 (FNE) Epoch 564563 sats=8
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=5 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G05 at=1.20352e+009  saved
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=12 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G12 at=1.20352e+009  saved
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=13 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G13 at=1.20352e+009  saved
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=15 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G15 at=1.20352e+009  saved
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=17 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G17 at=1.20352e+009  saved
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=19 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G19 at=1.20352e+009  saved
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=20 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G20 at=1.20352e+009  saved
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=24 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G24 at=1.20352e+009  saved
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=28 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G28 at=1.20352e+009  saved
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=30 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G30 at=1.20352e+009  saved
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=5 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G05 at=1.20352e+009  already exist
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=12 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G12 at=1.20352e+009  already exist
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=13 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G13 at=1.20352e+009  already exist
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=15 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G15 at=1.20352e+009  already exist
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=17 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G17 at=1.20352e+009  already exist
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=19 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G19 at=1.20352e+009  already exist
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=20 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G20 at=1.20352e+009  already exist
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=24 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G24 at=1.20352e+009  already exist
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=28 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G28 at=1.20352e+009  already exist
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=30 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G30 at=1.20352e+009  already exist
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=5 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G05 at=1.20352e+009  already exist
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=12 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G12 at=1.20352e+009  already exist
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=13 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G13 at=1.20352e+009  already exist
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=15 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G15 at=1.20352e+009  already exist
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=17 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G17 at=1.20352e+009  already exist
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=19 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G19 at=1.20352e+009  already exist
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=20 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G20 at=1.20352e+009  already exist
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=24 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G24 at=1.20352e+009  already exist
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=28 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G28 at=1.20352e+009  already exist
+ 13:54:49 (FNR) MID15 GPS ephemeris sv=30 Ephemeris OK
+ 13:54:49 (FNE) Ephemeris for sat=G30 at=1.20352e+009  already exist
+ 13:54:49 (FNR) MID28 tTag=564568 ch= 0 sv=15 sat=G15 psr=3.15897e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564568 ch= 1 sv=13 sat=G13 psr=3.18705e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564568 ch= 2 sv=24 sat=G24 psr=3.28329e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564568 ch= 3 sv=20 sat=G20 psr=3.27651e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564568 ch= 4 sv=28 sat=G28 psr=3.46469e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564568 ch= 5 sv=17 sat=G17 psr=3.52659e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564568 ch= 6 sv= 5 sat=G05 psr=3.54765e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564568 ch= 7 sv=12 sat=G12 psr=3.52342e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564568 ch= 8 sv=19 sat=G19 psr=3.57361e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID7 time week=1989 tow=564568 bias=0.0374986
+ 13:54:49 (FNE) Epoch 564568 sats=9
+ 13:54:49 (FNR) MID28 tTag=564573 ch= 0 sv=15 sat=G15 psr=3.1676e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564573 ch= 1 sv=13 sat=G13 psr=3.19585e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564573 ch= 2 sv=24 sat=G24 psr=3.29179e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564573 ch= 3 sv=20 sat=G20 psr=3.28537e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564573 ch= 4 sv=28 sat=G28 psr=3.47364e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564573 ch= 5 sv=17 sat=G17 psr=3.5351e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564573 ch= 6 sv= 5 sat=G05 psr=3.55668e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564573 ch= 7 sv=12 sat=G12 psr=3.53173e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564573 ch= 8 sv=19 sat=G19 psr=3.58201e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID7 time week=1989 tow=564573 bias=0.0377884
+ 13:54:49 (FNE) Epoch 564573 sats=9
+ 13:54:49 (FNR) MID28 tTag=564578 ch= 0 sv=15 sat=G15 psr=3.17623e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564578 ch= 1 sv=13 sat=G13 psr=3.20465e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564578 ch= 2 sv=24 sat=G24 psr=3.30029e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564578 ch= 3 sv=20 sat=G20 psr=3.29423e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564578 ch= 4 sv=28 sat=G28 psr=3.48259e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564578 ch= 5 sv=17 sat=G17 psr=3.54361e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564578 ch= 6 sv= 5 sat=G05 psr=3.56572e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564578 ch= 7 sv=12 sat=G12 psr=3.54004e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564578 ch= 8 sv=19 sat=G19 psr=3.59041e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID7 time week=1989 tow=564578 bias=0.0380782
+ 13:54:49 (FNE) Epoch 564578 sats=9
+ 13:54:49 (FNR) MID28 tTag=564583 ch= 0 sv=15 sat=G15 psr=3.18486e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564583 ch= 1 sv=13 sat=G13 psr=3.21344e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564583 ch= 2 sv=24 sat=G24 psr=3.30879e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564583 ch= 3 sv=20 sat=G20 psr=3.30308e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564583 ch= 4 sv=28 sat=G28 psr=3.49155e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564583 ch= 5 sv=17 sat=G17 psr=3.55212e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564583 ch= 6 sv= 5 sat=G05 psr=3.57476e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564583 ch= 7 sv=12 sat=G12 psr=3.54835e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564583 ch= 8 sv=19 sat=G19 psr=3.59881e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID7 time week=1989 tow=564583 bias=0.0383679
+ 13:54:49 (FNE) Epoch 564583 sats=9
+ 13:54:49 (FNR) MID28 tTag=564588 ch= 0 sv=15 sat=G15 psr=3.1935e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564588 ch= 1 sv=13 sat=G13 psr=3.22224e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564588 ch= 2 sv=24 sat=G24 psr=3.31729e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564588 ch= 3 sv=20 sat=G20 psr=3.31194e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564588 ch= 4 sv=28 sat=G28 psr=3.5005e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564588 ch= 5 sv=17 sat=G17 psr=3.56063e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564588 ch= 6 sv= 5 sat=G05 psr=3.58379e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564588 ch= 7 sv=12 sat=G12 psr=3.55667e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564588 ch= 8 sv=19 sat=G19 psr=3.60722e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID7 time week=1989 tow=564588 bias=0.0386577
+ 13:54:49 (FNE) Epoch 564588 sats=9
+ 13:54:49 (FNR) MID28 tTag=564593 ch= 0 sv=15 sat=G15 psr=3.20213e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564593 ch= 1 sv=13 sat=G13 psr=3.23104e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564593 ch= 2 sv=24 sat=G24 psr=3.3258e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564593 ch= 3 sv=20 sat=G20 psr=3.3208e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564593 ch= 4 sv=28 sat=G28 psr=3.50946e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564593 ch= 5 sv=17 sat=G17 psr=3.56914e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564593 ch= 6 sv= 5 sat=G05 psr=3.59283e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564593 ch= 7 sv=12 sat=G12 psr=3.56498e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564593 ch= 8 sv=19 sat=G19 psr=3.61562e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID7 time week=1989 tow=564593 bias=0.0389475
+ 13:54:49 (FNE) Epoch 564593 sats=9
+ 13:54:49 (FNR) MID28 tTag=564598 ch= 0 sv=15 sat=G15 psr=3.21077e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564598 ch= 1 sv=13 sat=G13 psr=3.23984e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564598 ch= 2 sv=24 sat=G24 psr=3.3343e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564598 ch= 3 sv=20 sat=G20 psr=3.32966e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564598 ch= 4 sv=28 sat=G28 psr=3.51841e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564598 ch= 5 sv=17 sat=G17 psr=3.57765e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564598 ch= 6 sv= 5 sat=G05 psr=3.60187e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564598 ch= 7 sv=12 sat=G12 psr=3.57329e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564598 ch= 8 sv=19 sat=G19 psr=3.62402e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID7 time week=1989 tow=564598 bias=0.0392373
+ 13:54:49 (FNE) Epoch 564598 sats=9
+ 13:54:49 (FNR) MID28 tTag=564603 ch= 0 sv=15 sat=G15 psr=3.2194e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564603 ch= 1 sv=13 sat=G13 psr=3.24864e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564603 ch= 2 sv=24 sat=G24 psr=3.3428e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564603 ch= 3 sv=20 sat=G20 psr=3.33852e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564603 ch= 4 sv=28 sat=G28 psr=3.52737e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564603 ch= 5 sv=17 sat=G17 psr=3.58616e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564603 ch= 6 sv= 5 sat=G05 psr=3.61091e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564603 ch= 7 sv=12 sat=G12 psr=3.5816e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564603 ch= 8 sv=19 sat=G19 psr=3.63243e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID7 time week=1989 tow=564603 bias=0.039527
+ 13:54:49 (FNE) Epoch 564603 sats=9
+ 13:54:49 (FNR) MID28 tTag=564608 ch= 0 sv=15 sat=G15 psr=3.22803e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564608 ch= 1 sv=13 sat=G13 psr=3.25744e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564608 ch= 2 sv=24 sat=G24 psr=3.3513e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564608 ch= 3 sv=20 sat=G20 psr=3.34738e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564608 ch= 4 sv=28 sat=G28 psr=3.53633e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564608 ch= 5 sv=17 sat=G17 psr=3.59468e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564608 ch= 6 sv= 5 sat=G05 psr=3.61994e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564608 ch= 7 sv=12 sat=G12 psr=3.58991e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564608 ch= 8 sv=19 sat=G19 psr=3.64083e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID7 time week=1989 tow=564608 bias=0.0398168
+ 13:54:49 (FNE) Epoch 564608 sats=9
+ 13:54:49 (FNR) MID28 tTag=564613 ch= 0 sv=15 sat=G15 psr=3.23667e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564613 ch= 1 sv=13 sat=G13 psr=3.26624e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564613 ch= 2 sv=24 sat=G24 psr=3.3598e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564613 ch= 3 sv=20 sat=G20 psr=3.35624e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564613 ch= 4 sv=28 sat=G28 psr=3.54528e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564613 ch= 5 sv=17 sat=G17 psr=3.60319e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564613 ch= 6 sv= 5 sat=G05 psr=3.62898e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564613 ch= 7 sv=12 sat=G12 psr=3.59823e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564613 ch= 8 sv=19 sat=G19 psr=3.64923e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID7 time week=1989 tow=564613 bias=0.0401066
+ 13:54:49 (FNE) Epoch 564613 sats=9
+ 13:54:49 (FNR) MID28 tTag=564618 ch= 0 sv=15 sat=G15 psr=3.2453e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564618 ch= 1 sv=13 sat=G13 psr=3.27504e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564618 ch= 2 sv=24 sat=G24 psr=3.36831e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564618 ch= 3 sv=20 sat=G20 psr=3.3651e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564618 ch= 4 sv=28 sat=G28 psr=3.55424e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564618 ch= 5 sv=17 sat=G17 psr=3.6117e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564618 ch= 6 sv= 5 sat=G05 psr=3.63802e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564618 ch= 7 sv=12 sat=G12 psr=3.60654e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID28 tTag=564618 ch= 8 sv=19 sat=G19 psr=3.65764e+007 SynFlg=FF SAVED
+ 13:54:49 (FNR) MID7 time week=1989 tow=564618 bias=0.0403964
+ 13:54:49 (FNE) Epoch 564618 sats=9
+ 13:54:49 (INF) Filtering data stated:
+ 13:54:49 (INF) Sel sys-sats for nav: G
+ 13:54:49 (INF) Selected sys=G; sats=; obs=C1C L1C D1C S1C 
+ 13:54:49 (FNS) Nav epoch for sys=G
+ 13:54:49 (FNS) Nav epoch printed: sys=G; sat=17
+ 13:54:49 (FNS) Nav epoch printed: sys=G; sat=12
+ 13:54:49 (FNS) Nav epoch printed: sys=G; sat=30
+ 13:54:49 (FNS) Nav epoch printed: sys=G; sat=5
+ 13:54:49 (FNS) Nav epoch printed: sys=G; sat=13
+ 13:54:49 (FNS) Nav epoch printed: sys=G; sat=15
+ 13:54:49 (FNS) Nav epoch printed: sys=G; sat=19
+ 13:54:49 (FNS) Nav epoch printed: sys=G; sat=20
+ 13:54:49 (FNS) Nav epoch printed: sys=G; sat=24
+ 13:54:49 (FNS) Nav epoch printed: sys=G; sat=28
+ 13:54:49 (INF) End of RINEX generation. Epochs read: 12
+ 2018-02-24 13:54:49 (SVR) logging END
+ 2018-02-24 13:56:26 (SVR) osptortk V1.1 START
+ 13:56:26 (INF) Start execution with Options:
+	(-h)HELP=TRUE
+	(-l)LOGLEVEL=INFO
+	(-m)MINSV=4
+ 13:56:26 (INF) Operators:
+	DATA.OSP
+ 2018-02-24 13:56:26 (SVR) logging END
+ 2018-02-24 13:56:45 (SVR) osptortk V1.1 START
+ 13:56:45 (INF) Start execution with Options:
+	(-h)HELP=FALSE
+	(-l)LOGLEVEL=FINEST
+	(-m)MINSV=4
+ 13:56:45 (INF) Operators:
+	20180224_134902.OSP
+ 13:56:45 (INF) RTK header data acquisition:
+ 13:56:45 (FNR) MID2 tow=564563 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:56:45 (FNR) MID19 elevation=50 s/n=8
+ 13:56:45 (FNR) MID2 tow=564568 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:56:45 (FNR) MID2 tow=564573 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:56:45 (FNR) MID2 tow=564578 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:56:45 (FNR) MID2 tow=564583 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:56:45 (FNR) MID2 tow=564588 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:56:45 (FNR) MID2 tow=564593 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:56:45 (FNR) MID2 tow=564598 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:56:45 (FNR) MID2 tow=564603 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:56:45 (FNR) MID2 tow=564608 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:56:45 (FNR) MID2 tow=564613 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:56:45 (FNR) MID2 tow=564618 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:56:45 (INF) Header data adquired:1ts epoch time;Mask data
+ 13:56:45 (FNR) MID2 tow=564563 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:56:45 (FNR) MID2 tow=564568 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:56:45 (FNR) MID2 tow=564573 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:56:45 (FNR) MID2 tow=564578 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:56:45 (FNR) MID2 tow=564583 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:56:45 (FNR) MID2 tow=564588 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:56:45 (FNR) MID2 tow=564593 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:56:45 (FNR) MID2 tow=564598 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:56:45 (FNR) MID2 tow=564603 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:56:45 (FNR) MID2 tow=564608 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:56:45 (FNR) MID2 tow=564613 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:56:45 (FNR) MID2 tow=564618 x=4.84857e+006 y=-327601 z=4.11831e+006
+ 13:56:45 (INF) End of data extraction. Epochs read: 12
+ 2018-02-24 13:56:45 (SVR) logging END
+ 2018-02-24 13:58:00 (SVR) rinextorinex V1.1 START
+ 13:58:00 (INF) Options:
+	(-f)FROMT=
+	(-k)SKIPE=FALSE
+	(-h)HELP=TRUE
+	(-l)LOGLEVEL=INFO
+	(-o)SELOBS3=
+	(-p)SELOBS2=
+	(-r)RINEX=RTOR
+	(-s)SELSAT=
+	(-t)TOT=
+	(-u)RUNBY=Run by
+	(-v)VER=TBD
+ 13:58:00 (INF) Operators:
+	RINEX.DAT
+ 2018-02-24 13:58:00 (SVR) logging END
+ 2018-02-24 13:58:54 (SVR) rinextorinex V1.1 START
+ 13:58:54 (INF) Options:
+	(-f)FROMT=
+	(-k)SKIPE=FALSE
+	(-h)HELP=FALSE
+	(-l)LOGLEVEL=FINEST
+	(-o)SELOBS3=
+	(-p)SELOBS2=
+	(-r)RINEX=RTOR
+	(-s)SELSAT=
+	(-t)TOT=
+	(-u)RUNBY=Run by
+	(-v)VER=V302
+ 13:58:54 (INF) Operators:
+	RINEX.DAT
+ 2018-02-24 13:58:54 (SVR) Cannot open file RINEX.DAT
+ 2018-02-24 13:58:54 (SVR) logging END
+ 2018-02-24 13:59:30 (SVR) rinextorinex V1.1 START
+ 13:59:30 (INF) Options:
+	(-f)FROMT=
+	(-k)SKIPE=FALSE
+	(-h)HELP=FALSE
+	(-l)LOGLEVEL=FINEST
+	(-o)SELOBS3=
+	(-p)SELOBS2=
+	(-r)RINEX=RTOR
+	(-s)SELSAT=
+	(-t)TOT=
+	(-u)RUNBY=Run by
+	(-v)VER=V302
+ 13:59:30 (INF) Operators:
+	PNT1055m49.18O
+ 13:59:30 (FNE) Data from RINEX file header:
+ 13:59:30 (FNR) RINEX VERSION / TYPE: 2.1 / O / G
+ 13:59:30 (FNR) PGM / RUN BY / DATE: OSPtoRINEX V2.0     /RUNBY               
+ 13:59:30 (FNR) MARKER NAME: MRKNAM                                                      
+ 13:59:30 (FNR) MARKER NUMBER: MRKNUM              
+ 13:59:30 (FNR) OBSERVER / AGENCY: OBSERVER            /AGENCY                                  
+ 13:59:30 (FNR) REC # / TYPE / VERS: GSD4e_4.0.4-P1 08/13/SiRF                /GSD4e               
+ 13:59:30 (FNR) ANT # / TYPE: Antenna#            /AntennaType         
+ 13:59:30 (FNR) APPROX POSITION XYZ: 4.84857e+006/-327601/4.11831e+006
+ 13:59:30 (FNR) ANTENNA: DELTA H/E/N: 0/0/0
+ 13:59:30 (FNR) WAVELENGTH FACT L1/2: 1/0:0
+ 13:59:30 (FNR) # / TYPES OF OBSERV: 4 types
+ 13:59:30 (FNR) INTERVAL: 5
+ 13:59:30 (FNR) TIME OF FIRST OBS: 1989/564563
+ 13:59:30 (FNR) END OF HEADER: found
+ 13:59:30 (INF) Filtering data cleared
+ 13:59:30 (WRN) MARKER TYPE:  header record is obligatory, but has not data
+ 13:59:30 (FNE) Epoch [ 18 02 24 12 49 23.0000000  0  8]
+ 13:59:30 (FNE) Epoch [ 18 02 24 12 49 28.0000000  0  9]
+ 13:59:30 (FNE) Epoch [ 18 02 24 12 49 33.0000000  0  9]
+ 13:59:30 (FNE) Epoch [ 18 02 24 12 49 38.0000000  0  9]
+ 13:59:30 (FNE) Epoch [ 18 02 24 12 49 43.0000000  0  9]
+ 13:59:30 (FNE) Epoch [ 18 02 24 12 49 48.0000000  0  9]
+ 13:59:30 (FNE) Epoch [ 18 02 24 12 49 53.0000000  0  9]
+ 13:59:30 (FNE) Epoch [ 18 02 24 12 49 58.0000000  0  9]
+ 13:59:30 (FNE) Epoch [ 18 02 24 12 50  3.0000000  0  9]
+ 13:59:30 (FNE) Epoch [ 18 02 24 12 50  8.0000000  0  9]
+ 13:59:30 (FNE) Epoch [ 18 02 24 12 50 13.0000000  0  9]
+ 13:59:30 (FNE) Epoch [ 18 02 24 12 50 18.0000000  0  9]
+ 13:59:30 (INF) End of RINEX generation. Epochs: good=12 bad=0 skiped=0
+ 2018-02-24 13:59:30 (SVR) logging END
+ 2018-02-24 14:00:43 (SVR) rinextocsv V1.0 START
+ 14:00:43 (INF) Options:
+	(-f)FROMT=
+	(-h)HELP=TRUE
+	(-l)LOGLEVEL=INFO
+	(-o)SELOBS3=
+	(-p)SELOBS2=
+	(-s)SELSAT=
+	(-t)TOT=
+ 14:00:43 (INF) Operators:
+	RINEX.DAT
+ 2018-02-24 14:00:43 (SVR) logging END
+ 2018-02-24 14:01:36 (SVR) rinextocsv V1.0 START
+ 14:01:36 (INF) Options:
+	(-f)FROMT=
+	(-h)HELP=FALSE
+	(-l)LOGLEVEL=FINEST
+	(-o)SELOBS3=
+	(-p)SELOBS2=
+	(-s)SELSAT=
+	(-t)TOT=
+ 14:01:36 (INF) Operators:
+	PNT1055m49.18O
+ 14:01:36 (FNE) Data from RINEX file header:
+ 14:01:36 (FNR) RINEX VERSION / TYPE: 2.1 / O / G
+ 14:01:36 (FNR) PGM / RUN BY / DATE: OSPtoRINEX V2.0     /RUNBY               
+ 14:01:36 (FNR) MARKER NAME: MRKNAM                                                      
+ 14:01:36 (FNR) MARKER NUMBER: MRKNUM              
+ 14:01:36 (FNR) OBSERVER / AGENCY: OBSERVER            /AGENCY                                  
+ 14:01:36 (FNR) REC # / TYPE / VERS: GSD4e_4.0.4-P1 08/13/SiRF                /GSD4e               
+ 14:01:36 (FNR) ANT # / TYPE: Antenna#            /AntennaType         
+ 14:01:36 (FNR) APPROX POSITION XYZ: 4.84857e+006/-327601/4.11831e+006
+ 14:01:36 (FNR) ANTENNA: DELTA H/E/N: 0/0/0
+ 14:01:36 (FNR) WAVELENGTH FACT L1/2: 1/0:0
+ 14:01:36 (FNR) # / TYPES OF OBSERV: 4 types
+ 14:01:36 (FNR) INTERVAL: 5
+ 14:01:36 (FNR) TIME OF FIRST OBS: 1989/564563
+ 14:01:36 (FNR) END OF HEADER: found
+ 14:01:36 (INF) Filtering data cleared
+ 14:01:36 (FNR) Print CSV header records:
+ 2018-02-24 14:01:36 (SVR) Mismatch argument types in RINEX label identifier RINEX VERSION / TYPE (setHdLnData)Incorrect params in getHdLnData call for RINEX VERSION / TYPE
+ 14:01:36 (FNR) Records printed:4
+ 14:01:36 (FNR) Print CSV observation epochs:
+ 14:01:36 (FNE) Epoch [ 18 02 24 12 49 23.0000000  0  8]
+ 14:01:36 (FNE) Epoch [ 18 02 24 12 49 28.0000000  0  9]
+ 14:01:36 (FNE) Epoch [ 18 02 24 12 49 33.0000000  0  9]
+ 14:01:36 (FNE) Epoch [ 18 02 24 12 49 38.0000000  0  9]
+ 14:01:36 (FNE) Epoch [ 18 02 24 12 49 43.0000000  0  9]
+ 14:01:36 (FNE) Epoch [ 18 02 24 12 49 48.0000000  0  9]
+ 14:01:36 (FNE) Epoch [ 18 02 24 12 49 53.0000000  0  9]
+ 14:01:36 (FNE) Epoch [ 18 02 24 12 49 58.0000000  0  9]
+ 14:01:36 (FNE) Epoch [ 18 02 24 12 50  3.0000000  0  9]
+ 14:01:36 (FNE) Epoch [ 18 02 24 12 50  8.0000000  0  9]
+ 14:01:36 (FNE) Epoch [ 18 02 24 12 50 13.0000000  0  9]
+ 14:01:36 (FNE) Epoch [ 18 02 24 12 50 18.0000000  0  9]
+ 14:01:36 (FNR) Obs epochs to CSV:12
+ 2018-02-24 14:01:36 (SVR) logging END
+ 2018-02-24 14:02:23 (SVR) rinextocsv V1.0 START
+ 14:02:23 (INF) Options:
+	(-f)FROMT=
+	(-h)HELP=FALSE
+	(-l)LOGLEVEL=FINEST
+	(-o)SELOBS3=
+	(-p)SELOBS2=
+	(-s)SELSAT=
+	(-t)TOT=
+ 14:02:23 (INF) Operators:
+	PNT1055m49.18O
+ 14:02:23 (FNE) Data from RINEX file header:
+ 14:02:23 (FNR) RINEX VERSION / TYPE: 2.1 / O / G
+ 14:02:23 (FNR) PGM / RUN BY / DATE: OSPtoRINEX V2.0     /RUNBY               
+ 14:02:23 (FNR) MARKER NAME: MRKNAM                                                      
+ 14:02:23 (FNR) MARKER NUMBER: MRKNUM              
+ 14:02:23 (FNR) OBSERVER / AGENCY: OBSERVER            /AGENCY                                  
+ 14:02:23 (FNR) REC # / TYPE / VERS: GSD4e_4.0.4-P1 08/13/SiRF                /GSD4e               
+ 14:02:23 (FNR) ANT # / TYPE: Antenna#            /AntennaType         
+ 14:02:23 (FNR) APPROX POSITION XYZ: 4.84857e+006/-327601/4.11831e+006
+ 14:02:23 (FNR) ANTENNA: DELTA H/E/N: 0/0/0
+ 14:02:23 (FNR) WAVELENGTH FACT L1/2: 1/0:0
+ 14:02:23 (FNR) # / TYPES OF OBSERV: 4 types
+ 14:02:23 (FNR) INTERVAL: 5
+ 14:02:23 (FNR) TIME OF FIRST OBS: 1989/564563
+ 14:02:23 (FNR) END OF HEADER: found
+ 14:02:23 (INF) Filtering data cleared
+ 14:02:23 (FNR) Print CSV header records:
+ 2018-02-24 14:02:23 (SVR) Mismatch argument types in RINEX label identifier RINEX VERSION / TYPE (setHdLnData)Incorrect params in getHdLnData call for RINEX VERSION / TYPE
+ 14:02:23 (FNR) Records printed:4
+ 14:02:23 (FNR) Print CSV observation epochs:
+ 14:02:23 (FNE) Epoch [ 18 02 24 12 49 23.0000000  0  8]
+ 14:02:23 (FNE) Epoch [ 18 02 24 12 49 28.0000000  0  9]
+ 14:02:23 (FNE) Epoch [ 18 02 24 12 49 33.0000000  0  9]
+ 14:02:23 (FNE) Epoch [ 18 02 24 12 49 38.0000000  0  9]
+ 14:02:23 (FNE) Epoch [ 18 02 24 12 49 43.0000000  0  9]
+ 14:02:23 (FNE) Epoch [ 18 02 24 12 49 48.0000000  0  9]
+ 14:02:23 (FNE) Epoch [ 18 02 24 12 49 53.0000000  0  9]
+ 14:02:23 (FNE) Epoch [ 18 02 24 12 49 58.0000000  0  9]
+ 14:02:23 (FNE) Epoch [ 18 02 24 12 50  3.0000000  0  9]
+ 14:02:23 (FNE) Epoch [ 18 02 24 12 50  8.0000000  0  9]
+ 14:02:23 (FNE) Epoch [ 18 02 24 12 50 13.0000000  0  9]
+ 14:02:23 (FNE) Epoch [ 18 02 24 12 50 18.0000000  0  9]
+ 14:02:23 (FNR) Obs epochs to CSV:12
+ 2018-02-24 14:02:23 (SVR) logging END
+ 2018-02-24 14:02:49 (SVR) rinextocsv V1.0 START
+ 14:02:49 (INF) Options:
+	(-f)FROMT=
+	(-h)HELP=FALSE
+	(-l)LOGLEVEL=FINEST
+	(-o)SELOBS3=
+	(-p)SELOBS2=
+	(-s)SELSAT=
+	(-t)TOT=
+ 14:02:49 (INF) Operators:
+	RTOR00---_R_20180551249_00U_05S_GO.rnx
+ 14:02:49 (FNE) Data from RINEX file header:
+ 14:02:49 (WRN) RINEX VERSION / TYPE: File processed as per 3.01
+ 14:02:49 (FNR) RINEX VERSION / TYPE: 3.02 / O / G
+ 14:02:49 (FNR) PGM / RUN BY / DATE: RINEXtoRINEX        /Run by              
+ 14:02:49 (FNR) MARKER NAME: MRKNAM                                                      
+ 14:02:49 (FNR) MARKER NUMBER: MRKNUM              
+ 14:02:49 (FNR) OBSERVER / AGENCY: OBSERVER            /AGENCY                                  
+ 14:02:49 (FNR) REC # / TYPE / VERS: GSD4e_4.0.4-P1 08/13/SiRF                /GSD4e               
+ 14:02:49 (FNR) ANT # / TYPE: Antenna#            /AntennaType         
+ 14:02:49 (FNR) APPROX POSITION XYZ: 4.84857e+006/-327601/4.11831e+006
+ 14:02:49 (FNR) ANTENNA: DELTA H/E/N: 0/0/0
+ 14:02:49 (FNR) SYS / # / OBS TYPES: 4 types
+ 14:02:49 (FNR) INTERVAL: 5
+ 14:02:49 (FNR) TIME OF FIRST OBS: 1989/564563
+ 14:02:49 (FNR) END OF HEADER: found
+ 14:02:49 (INF) Filtering data cleared
+ 14:02:49 (FNR) Print CSV header records:
+ 2018-02-24 14:02:49 (SVR) Mismatch argument types in RINEX label identifier RINEX VERSION / TYPE (setHdLnData)Incorrect params in getHdLnData call for RINEX VERSION / TYPE
+ 14:02:49 (FNR) Records printed:4
+ 14:02:49 (FNR) Print CSV observation epochs:
+ 14:02:49 (FNE) Epoch [> 2018 02 24 12 49 23.0000000  0  8]
+ 14:02:49 (FNE) Epoch [> 2018 02 24 12 49 28.0000000  0  9]
+ 14:02:49 (FNE) Epoch [> 2018 02 24 12 49 33.0000000  0  9]
+ 14:02:49 (FNE) Epoch [> 2018 02 24 12 49 38.0000000  0  9]
+ 14:02:49 (FNE) Epoch [> 2018 02 24 12 49 43.0000000  0  9]
+ 14:02:49 (FNE) Epoch [> 2018 02 24 12 49 48.0000000  0  9]
+ 14:02:49 (FNE) Epoch [> 2018 02 24 12 49 53.0000000  0  9]
+ 14:02:49 (FNE) Epoch [> 2018 02 24 12 49 58.0000000  0  9]
+ 14:02:49 (FNE) Epoch [> 2018 02 24 12 50  3.0000000  0  9]
+ 14:02:49 (FNE) Epoch [> 2018 02 24 12 50  8.0000000  0  9]
+ 14:02:49 (FNE) Epoch [> 2018 02 24 12 50 13.0000000  0  9]
+ 14:02:49 (FNE) Epoch [> 2018 02 24 12 50 18.0000000  0  9]
+ 14:02:49 (FNR) Obs epochs to CSV:12
+ 2018-02-24 14:02:49 (SVR) logging END
